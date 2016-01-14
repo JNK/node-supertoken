@@ -1,6 +1,6 @@
 {
   "name": "supertoken",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A coll login token utility",
   "main": "dist/index.js",
   "scripts": {
