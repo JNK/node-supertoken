@@ -141,7 +141,7 @@ export default class SuperToken {
                 return false;
             },
             isUser(withRoles) {
-                if (this.isValid() && this.isType('admin')) {
+                if (this.isValid() && this.isType('user')) {
                     if (withRoles) {
                         return this.hasRole(withRoles);
                     } else {
